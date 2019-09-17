@@ -11,12 +11,12 @@
             <video class="bg-vid" src="./video/sunset-siesta.webm" autoplay loop muted></video>
 
             <form class="form">
-                <input class="form-where" type="search" placeholder="Where?">
-                <label for="check-in">Check-In</label>
-                <input type="date" name="check-in">
-                <label for="check-out">Checkout</label>
-                <input type="date" name="checkout">
-                <select name="guests">
+                <input class="form-item form-where" type="search" placeholder="Where?">
+                <label class="form-item form-checkin" for="check-in">From</label>
+                <input class="form-item form-date" type="date" name="check-in">
+                <label class="form-item form-checkout" for="check-out">To</label>
+                <input class="form-item form-date" type="date" name="checkout">
+                <select class="form-item" name="guests">
                     <option value="1">1 Guest</option>
                     <option value="2">2 Guests</option>
                     <option value="3">3 Guests</option>
@@ -24,7 +24,7 @@
                     <option value="5">5 Guests</option>
                     <option value="6">6 Guests</option>
                 </select>
-                <input class="form-submit" type="submit" value="Search">
+                <input class="form-item form-submit" type="submit" value="Search">
             </form>
         </main>
     </body>
