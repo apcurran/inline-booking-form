@@ -22,6 +22,7 @@ label {
 .form {
   z-index: 5;
   display: flex;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
 }
 .form-item {
   border: none;
